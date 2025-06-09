@@ -24,7 +24,7 @@ export default function LoginPage() {
   return (
     <>
         <div className='tituloLogin'>
-          <h2>Seja bem-vindo ao Gerenciador de Tarefas!</h2>
+          <h3>Seja bem-vindo ao Gerenciador de Tarefas!</h3>
         </div>
         <form className="form" onSubmit={handleSubmit}>
           <label className="formItem"><p>Email:</p></label>
